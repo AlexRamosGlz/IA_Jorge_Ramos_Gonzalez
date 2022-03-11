@@ -4,4 +4,4 @@ num2 = 36;
 
 sum = num1 + num2;
 
-print(message, sum);
+print("This is the message: ",message, "\nthis is the result of the sum: ",sum);
