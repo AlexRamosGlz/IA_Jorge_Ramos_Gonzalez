@@ -15,7 +15,7 @@ def calculator():
   print('\nDivision: ', division);
 
 
-  return 'Return: ', (10 / 5) + 15 - 17; 
+  return (10 / 5) + 15 - 17; 
   
 
 print(calculator());
