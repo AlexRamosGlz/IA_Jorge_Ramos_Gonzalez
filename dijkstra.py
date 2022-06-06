@@ -7,7 +7,6 @@ from heapq import heapify, heappush, heappop
 def creatGraph(nodes, shortestPath):
     G = nx.Graph()
     plt.figure()
-    edges = []
     n = len(nodes)
     for i in range(n):
         if nodes[i] in shortestPath:
